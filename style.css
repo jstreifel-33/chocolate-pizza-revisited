@@ -1,8 +1,12 @@
+/* DIVIDER */
+
 .divider{
   height:10px;
   width:900px;
   background-image: url(assets/hr-img.png);
 }
+
+/* HEADER */
 
 header{
   height: 55px;
@@ -45,11 +49,12 @@ nav img{
   margin-left:5px;
 }
 
+/* MAIN */
+
 main{
   margin-top:50px;
   width: 900px;
 }
-
 
 h2{
   width:450px;
@@ -77,6 +82,8 @@ h2+p{
 .recipe{
   text-indent:2em;
 }
+
+/* INGREDIENTS */
 
 #ingredients{
   box-sizing:border-box;
@@ -108,6 +115,40 @@ h2+p{
 input:checked + span{
   text-decoration: line-through;
 }
+
+/* AUTHOR BLOCK */
+
+#author{
+  margin-top:20px;
+}
+#author img{
+  float:left;
+}
+#bio{
+  display:inline-block;
+  margin-left:15px;
+  width:500px;
+}
+#bio h3{
+  margin:0;
+  font-size:larger;
+  font-weight: bold;
+}
+
+#author a{
+  height: 50px;
+  width:180px;
+  margin-top: 10px;
+  float:right;
+  text-align: center;
+  line-height: 50px;
+  font-size: larger;
+  color:whitesmoke;
+  background-color: darkorange;
+}
+
+/* FOOTER */
+
 footer{
   margin-top:50px;
   border-top:thin solid lightgrey;
