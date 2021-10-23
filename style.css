@@ -1,11 +1,105 @@
-header{
+.divider{
+  height:10px;
   width:900px;
+  background-image: url(assets/hr-img.png);
 }
 
-body{
+header{
+  height: 55px;
+  width:900px;
+  margin-bottom: 22px;
+}
+
+h1{
+  margin:0;
+}
+
+#title{
+  float: left;
+  width:440px;
+}
+
+#title img{
+  float:left;
+  margin:5px 10px 5px 0px;
+}
+
+#title p{
+  margin:0;
+  font-size: small;
+}
+
+nav{
+  margin-top:15px;
+  float:right;
+}
+nav img{
+  float:right;
+  margin:1px;
+}
+#nav-left{
+  display:inline-block;
+}
+#nav-right{
+  display:inline-block;
+  margin-left:5px;
+}
+
+main{
+  margin-top:50px;
   width: 900px;
 }
 
+
+h2{
+  width:450px;
+  margin:0;
+  font-size: xx-large;
+}
+h2+p{
+  display:inline-block;
+  width:450px;
+  margin:0;
+  font-size:small;
+}
+#print{
+  float:right;
+  font-size: small;
+}
+#print *{
+  display:inline;
+}
+
+#pizza{
+  margin:30px 0px 10px 0px;
+}
+
+.recipe{
+  text-indent:2em;
+}
+
+#ingredients{
+  height:305px;
+  margin-top:10px;
+  margin-bottom:35px;
+  background-image: url(assets/list-bg.png);
+}
+
+#ingredients ul{
+  display:inline-block;
+  width:350px;
+  margin:auto;
+  list-style: none;
+  font-size: x-large;
+}
+
+#ingredients li{
+  line-height: 31px;
+}
+
+#ingredients input{
+  margin-right:10px;
+}
 footer{
   width:900px;
 }
