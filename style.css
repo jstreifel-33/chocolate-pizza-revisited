@@ -79,7 +79,10 @@ h2+p{
 }
 
 #ingredients{
+  box-sizing:border-box;
   height:305px;
+  padding-top:37px;
+  columns:2;
   margin-top:10px;
   margin-bottom:35px;
   background-image: url(assets/list-bg.png);
@@ -87,8 +90,9 @@ h2+p{
 
 #ingredients ul{
   display:inline-block;
-  width:350px;
   margin:auto;
+  margin: 0px;
+  width:350px;
   list-style: none;
   font-size: x-large;
 }
@@ -100,6 +104,21 @@ h2+p{
 #ingredients input{
   margin-right:10px;
 }
+
+input:checked + span{
+  text-decoration: line-through;
+}
 footer{
+  margin-top:50px;
+  border-top:thin solid lightgrey;
+  text-align: center;
   width:900px;
+}
+footer p{
+  margin: 8px;
+}
+footer img{
+  position:relative;
+  border: thick solid white;
+  bottom:20px;
 }
