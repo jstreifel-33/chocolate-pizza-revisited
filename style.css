@@ -1,6 +1,7 @@
 /* DIVIDER */
 
 .divider{
+  margin:auto;
   height:10px;
   width:900px;
   background-image: url(assets/hr-img.png);
@@ -9,6 +10,7 @@
 /* HEADER */
 
 header{
+  margin:auto;
   height: 55px;
   width:900px;
   margin-bottom: 22px;
@@ -16,6 +18,7 @@ header{
 
 h1{
   margin:0;
+  font-family:cursive;
 }
 
 #title{
@@ -29,8 +32,11 @@ h1{
 }
 
 #title p{
+  position:relative;
+  bottom:15px;
   margin:0;
-  font-size: small;
+  font-size: x-small;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav{
@@ -52,6 +58,7 @@ nav img{
 /* MAIN */
 
 main{
+  margin:auto;
   margin-top:50px;
   width: 900px;
 }
@@ -59,17 +66,23 @@ main{
 h2{
   width:450px;
   margin:0;
-  font-size: xx-large;
+  font-size: 2.5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight:100;
 }
 h2+p{
   display:inline-block;
+  font-family: sans-serif;
+  color: grey;
   width:450px;
   margin:0;
-  font-size:small;
+  font-size:smaller;
 }
 #print{
   float:right;
   font-size: small;
+  font-family: sans-serif;
+  color:grey;
 }
 #print *{
   display:inline;
@@ -81,14 +94,18 @@ h2+p{
 
 .recipe{
   text-indent:2em;
+  color:rgb(112, 112, 112);
+  font-size: 1.1em;
 }
 
 /* INGREDIENTS */
 
 #ingredients{
   box-sizing:border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height:305px;
   padding-top:37px;
+  padding-left:25px;
   columns:2;
   margin-top:10px;
   margin-bottom:35px;
@@ -101,7 +118,7 @@ h2+p{
   margin: 0px;
   width:350px;
   list-style: none;
-  font-size: x-large;
+  font-size: larger;
 }
 
 #ingredients li{
@@ -131,8 +148,12 @@ input:checked + span{
 }
 #bio h3{
   margin:0;
-  font-size:larger;
+  font-size:x-large;
   font-weight: bold;
+  color:rgb(61, 61, 61);
+}
+#bio p{
+  color:rgb(112, 112, 112);
 }
 
 #author a{
@@ -141,15 +162,19 @@ input:checked + span{
   margin-top: 10px;
   float:right;
   text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 50px;
-  font-size: larger;
+  font-size: large;
+  font-weight: lighter;
+  font-stretch:ultra-condensed;
   color:whitesmoke;
-  background-color: darkorange;
+  background-color: rgb(190, 76, 0);
 }
 
 /* FOOTER */
 
 footer{
+  margin:auto;
   margin-top:50px;
   border-top:thin solid lightgrey;
   text-align: center;
@@ -157,6 +182,7 @@ footer{
 }
 footer p{
   margin: 8px;
+  color:grey;
 }
 footer img{
   position:relative;
